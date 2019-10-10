@@ -14,18 +14,24 @@ Este curso ofrece al profesorado conocer y utilizar nuevas herramientas para inc
 
 ## Contenidos
 
-1. Introducción a la robótica. La placa micro:bit 
-2. Robótica sencilla con la plataforma Maqueen micro:bit
+0. [Índice](./Indice.md)
+1. [Introducción a la robótica](./IniciacionRobotica.md). 
+    La placa [micro:bit](./microbit.md).
+    [Tutorial de uso](./tutorial.md) 
+    Haciendo [Steam con micro:bit](./STEM.md)
+2. Robótica sencilla con la plataforma [Maqueen micro:bit](./MaQueen.md)
 3. Ejemplos de algunos proyectos sencillos
 4. Exposición de proyectos realizados
 
-# BBC Micro:bit
+# BBC [Micro:bit](./microbit.md)
 
 ![micro:bit](./images/redirect_scrolling_bit.gif)
 
-# Robot maqueen
+# [Robot maqueen](./MaQueen.md)
 
 ![maqueen](./images/maQueen.jpg)
+
+[Recursos](./Recursos.md)
 
 
 
