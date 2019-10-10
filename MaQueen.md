@@ -11,7 +11,7 @@ Robot MaQueen
 ![pinout](./images/maqueen_pinout.jpg)
 
 
-### Programación con blooques
+### Programación con bloques
 
 Añadimos la extensión https://github.com/DFRobot/pxt-maqueen
 
