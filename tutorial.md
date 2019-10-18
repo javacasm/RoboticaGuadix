@@ -20,20 +20,20 @@ Los programas se guardan por defecto en nuestro navegador
 
 Seleccionamos el idioma
 
-![language](../images/SelecionarIdioma.png)
+![language](./images/SelecionarIdioma.png)
 
 La pantalla: 
 * A la izquierda, Podemos simular nuestro programa
 * Centor las paletas de bloques
 * Bloques de mi programa
 
-![inicio](../images/Incio_bloques.png)
+![inicio](./images/Incio_bloques.png)
 
 Añadir nuestros bloques en onStart (para que se ejecute al principio) o forever (para que se ejecute repetitivamente)
 
 EJEMPLO [HOLA MUNDO](https://makecode.microbit.org/_MfyHdrLXVWqL)
 
-![HolaMundo](../images/HolaMundo.png)
+![HolaMundo](./images/HolaMundo.png)
 
 Podemos cambiar el nombre
  
@@ -54,24 +54,24 @@ EJEMPLO de temperatura
 
 [Control de temperatura](https://makecode.microbit.org/_LesCE2h70PAT)
 
-![ControlTemperatura](../images/ControlTemperatura.png)
+![ControlTemperatura](./images/ControlTemperatura.png)
 
 EJEMPLO: Control de iluminación digital y analógico
 
 
 [Control de iluminación](https://makecode.microbit.org/_YqD3MePtK6gU)
 
-![Control iluminación](../images/ControlIluminacion.png)
+![Control iluminación](./images/ControlIluminacion.png)
 
 
 
 [Control de iluminación II](https://makecode.microbit.org/_7ayKTtKvXFcc)
 
-![ControlIluminacionII](../images/ControlIluminacionII.png)
+![ControlIluminacionII](./images/ControlIluminacionII.png)
 
 [ControlIluminacion III](https://makecode.microbit.org/_TVJAFy9mjJ3Y)
 
-![ControlIluminacion2](../images/ControlIluminacionIII.png)
+![ControlIluminacion2](./images/ControlIluminacionIII.png)
 
 ## Eventos
 
@@ -82,7 +82,7 @@ EJEMPLO: [¿a quién le toca?](https://makecode.microbit.org/_f9EhoRAp1eoR)
 * B decrementa 
 * agitado pone número aleatorio
 
-![A quien le toca](../images/AquienLeToca.png)
+![A quien le toca](./images/AquienLeToca.png)
 
 ## Juegos
 
@@ -97,7 +97,7 @@ EJEMPLO: marcianitos simples
 
 EJEMPLO: [piedra, papel o tijera](https://makecode.microbit.org/_0Xi5xA7gweK5)
 
-![Piedra Papel Tijera](../images/PiedraPapelTijera.png)
+![Piedra Papel Tijera](./images/PiedraPapelTijera.png)
 
 EJEMPLO: dado digital
 
