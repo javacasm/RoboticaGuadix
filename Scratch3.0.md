@@ -1,0 +1,1 @@
+https://resources.scratch.mit.edu/www/cards/en/microbit-cards.pdf
