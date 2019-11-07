@@ -1,4 +1,4 @@
-# Introducción  la Robótica
+# Introducción  la Robótica con micro:bit
 
 ## CEP de Guadix
 
@@ -7,6 +7,8 @@
 ## José Antonio Vacas @javacasm
 
 ![Licencia CC](./images/Licencia_CC.png)
+
+## https://github.com/javacasm/RoboticaGuadix
 
 Este curso ofrece al profesorado conocer y utilizar nuevas herramientas para incorporarlas al aula: la programación y la robótica. Podrá conocer diferentes tipos de robot y trabajar con la placa micro:bit dentro del aula, además de familiarizarse con un primer lenguaje de programación de fácil uso a través de bloques gráficos.
 
