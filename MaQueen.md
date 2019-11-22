@@ -127,3 +127,5 @@ https://juegosrobotica.es/podcast-036/
 [Wiki del producto](https://wiki.dfrobot.com/micro:Maqueen_for_micro:bit_SKU:ROB0148-E%28ROB0148%29)
 
 [Página del producto](https://www.dfrobot.com/product-1783.html?search=maqueen)
+
+[Ideas para retos](https://raw.githubusercontent.com/Frances9/ROB0148/master/Crazy%20Maqueen%20Tutorial-English.pdf)
