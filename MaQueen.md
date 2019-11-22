@@ -13,7 +13,7 @@
 
 ### Programación con bloques
 
-Añadimos la extensión https://github.com/DFRobot/pxt-maqueen
+Para poder programarlo desde Makecode con bloque tenemos que añadir su extensión, para lo que pondremos en el buscador de extensiones la siguiente URL https://github.com/DFRobot/pxt-maqueen
 
 ### Ejemplos
 
@@ -55,7 +55,7 @@ Ya que le hemos pillado el truco a la calibración de distancias y giros vamos a
 
 #### 4 x Leds RGB
 
-Añadimos la extensión de NeoPixels
+Antes de programar las leds RGB añadimos la extensión de NeoPixels
 
 [Ejemplo sencillo](https://makecode.microbit.org/_FXpHRk6m28pb)
 Seleccionamos el P15 que es al que están conectados los 4 neopixels
@@ -123,3 +123,7 @@ https://www.instructables.com/id/Using-the-DF-Robot-Micro-Maqueen-MicroBit-Robot
 ### Recursos 
 
 https://juegosrobotica.es/podcast-036/
+
+[Wiki del producto](https://wiki.dfrobot.com/micro:Maqueen_for_micro:bit_SKU:ROB0148-E%28ROB0148%29)
+
+[Página del producto](https://www.dfrobot.com/product-1783.html?search=maqueen)
