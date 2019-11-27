@@ -114,3 +114,30 @@ En caso de que se pulse el botón A mostramos la temperatura  actual
 ![TermometroColorBloques](./images/TermometroColorBloques.png)
 
 [Ejemplo](https://makecode.microbit.org/_XcPcJEfhvd3v)
+
+## Radio
+
+### Dado numérico remoto
+
+Al agitarlo se elige un número aleatorio entre 0 y 9 y se envía a todas las placas del mismo grupo
+
+Establecemos el número de grupo para que todas las micro:bit se escuchen
+
+![NumericRemoteDice](./images/NumericRemoteDice.png)
+
+[Proyecto](https://makecode.microbit.org/_ft6bim3q7ayP)
+
+### Dado alfabético remoto
+
+Cambiamos los bloques referidos a números por los correspondientes a letras
+
+![](./images/AlphabticRemoteDice.png)
+[Proyecto](https://makecode.microbit.org/_dC1hzRVkzELx)
+
+### Ejercicio
+
+Comparte tus emociones: selecciona con los botones A y B tu estado de ánimo y compártelo al pulsar A+B. Si lo agitas tendrás un estado aleatorio...
+
+### Compartiendo variables y valores
+
+Para ello usaremos los bloques de envía etiqueta/valor
