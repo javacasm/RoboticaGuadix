@@ -13,18 +13,70 @@
 
 ### Programación con bloques
 
-Añadimos la extensión https://github.com/DFRobot/pxt-maqueen
+Para poder programarlo desde Makecode con bloque tenemos que añadir su extensión, para lo que pondremos en el buscador de extensiones la siguiente URL https://github.com/DFRobot/pxt-maqueen
 
 ### Ejemplos
 
 
+#### Movimientos sencillos y led delanteros
+
+Vamos hacer un ejemplo sencillo de movimiento a la vez que encedemos y apagamos los led rojos delanteros
+
+
+![Movimientos.png](./images/Movimientos.png)
+
+[Proyecto](https://makecode.microbit.org/_ixqfbfA2HAxu)
+
+#### Girando N grados o moviéndonos X cm
+
+Para poder controlar con cierta precisión (hay que recordar que los motores del robot son motores DC y que no está pensado para hacer movimientos precisos) vamos a empezar midiendo el tiempo necesario para conseguir hacer esos movimientos. Esto es un proceso de calibración de los movimiento que podíamos hacer una forma más serie y científica midiendo distancias con la regla y ángulos
+
+Empezaremos viendo el tiempo que necesitamos para hacer un giro de 180º.
+Luego veremos el tiempo necesario para recorrer.
+
+![calibracioBasica180.png](./images/calibracioBasica180.png)
+
+Para facilitar el proceso hemos creado dos funciones. Una función es una manera de crear nuestro propios bloques que funciona como un "atajo" para reutilizar varias veces un grupo de bloques datos. Para ello pulsamos en "Crear función" (en la paleta de funciones) y definimos los bloques que la compondrán. Cada vez que queramos utilizarla arrastraremos el bloque que hemos creado
+
+Para hacer movimientos más complejos nos va a venir muy bien, puesto que podremos descomponerlos en movimientos más sencillos que se repetirán.
+
+[Proyecto](https://makecode.microbit.org/_95LdTUac6UY5)
+
+
+#### Recorriendo un cuadrado
+
+Ya que le hemos pillado el truco a la calibración de distancias y giros vamos a hacer que maqueen recorra un cuadrado. Para ello crearemos una nueva función "Giro 90"
+
+![RecurreCuadrado.png](./images/RecurreCuadrado.png)
+
+[Proyecto](https://makecode.microbit.org/_hCYV6Jga1gJE)
+
+
+
 #### 4 x Leds RGB
 
-Añadimos la extensión de NeoPixels
+Antes de programar las leds RGB añadimos la extensión de NeoPixels
 
 [Ejemplo sencillo](https://makecode.microbit.org/_FXpHRk6m28pb)
 Seleccionamos el P15 que es al que están conectados los 4 neopixels
 ![maQueen NeoPixels](./images/maQueen_Neopixel.png)
+
+#### Movimiento + leds colores + sonido = coche de policía
+
+Vamos a combinarlo todo añadiendo algo de sonido
+
+![Coche Policía](./images/CochePolicia.png)
+
+[Proyecto](https://makecode.microbit.org/_D66U4o6Mm83D)
+
+
+#### No te caigas
+
+Vamos a utilizar los sensores de infrarrojos que tiene maqueen en la parte de abajo para evitar que se caiga de la mesa. Desgraciadamente el diseñador los ha puesto detrás de la rueda loca con lo que salvo que nos movamos muy, muy despacio la rueda va a sobresalir de la mesa con el considerable peligro
+
+![NoTeCaigasBloques.png](./images/NoTeCaigasBloques.png)
+
+[Proyecto](https://makecode.microbit.org/_iTR64w0P1Jtc)
  
 #### Receptor de infrarrojos
 
@@ -71,3 +123,9 @@ https://www.instructables.com/id/Using-the-DF-Robot-Micro-Maqueen-MicroBit-Robot
 ### Recursos 
 
 https://juegosrobotica.es/podcast-036/
+
+[Wiki del producto](https://wiki.dfrobot.com/micro:Maqueen_for_micro:bit_SKU:ROB0148-E%28ROB0148%29)
+
+[Página del producto](https://www.dfrobot.com/product-1783.html?search=maqueen)
+
+[Ideas para retos](https://raw.githubusercontent.com/Frances9/ROB0148/master/Crazy%20Maqueen%20Tutorial-English.pdf)
