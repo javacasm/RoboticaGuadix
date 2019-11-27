@@ -6,6 +6,7 @@
 
 http://microes.org/descargas/manual-de-programacion-microbit.pdf
 
+[Revista micro:mag](https://micromag.cc/)
 
 
 ## Curso de ingenieria del software
