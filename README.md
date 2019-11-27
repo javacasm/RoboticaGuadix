@@ -26,7 +26,7 @@ Este curso ofrece al profesorado conocer y utilizar nuevas herramientas para inc
     [Tutorial de uso](./tutorial.md) 
     Haciendo [Steam con micro:bit](./STEM.md)
 2. Robótica sencilla con la plataforma [Maqueen micro:bit](./MaQueen.md)
-3. Ejemplos de algunos proyectos sencillos
+3. [Ejemplos](./ejemplos.md) de algunos proyectos sencillos
 4. Exposición de proyectos realizados
 
 # BBC [Micro:bit](./microbit.md)
@@ -37,7 +37,9 @@ Este curso ofrece al profesorado conocer y utilizar nuevas herramientas para inc
 
 ![maqueen](./images/maQueen.jpg)
 
-[Recursos](./Recursos.md)
+# [Complementos](./Complementos.md)
+
+# [Recursos](./Recursos.md)
 
 
 
