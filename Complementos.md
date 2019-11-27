@@ -4,7 +4,7 @@
 
 ![](./images/microbit-1024x576.jpg)
 
-Similar a maqueen, y precio muy parecido, pero con mejores características. Incluye batería, los sensores de línea están donde tienen que estar, 2 tipos de leds RGB, emisor y detector de infrarrojos,...
+Similar a maqueen, y precio muy parecido, pero con mejores características. Incluye batería, los sensores de línea están donde tienen que estar, 2 tipos de leds RGB, emisor y detector de infrarrojos, mando a distancia de infrarrojos, ...
 
 Se programa con la siguiente extensión [https://github.com/lzty634158/yahboom_mbit_en](https://github.com/lzty634158/yahboom_mbit_en)
 
