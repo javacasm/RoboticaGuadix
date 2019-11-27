@@ -92,6 +92,20 @@ https://makecode.microbit.org/_Dm7961WkhHP6
         screen /dev/ttyACM0 115200
 
 
+### Guardando las distancias
+
+
+### Sígueme
+
+### Siguelíneas
+
+![](https://catedu.gitbooks.io/smartcar-micro-bit/content/assets/a208fdf2-0792-4af6-b75a-bb8ec681aa19.jpg)
+
+
+### Mando a distancia
+
+Usando otra micro:bit como mando
+
 
 #### Motores
  
