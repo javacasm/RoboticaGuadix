@@ -141,3 +141,8 @@ Comparte tus emociones: selecciona con los botones A y B tu estado de ánimo y c
 ### Compartiendo variables y valores
 
 Para ello usaremos los bloques de envía etiqueta/valor
+
+
+### Brújula
+
+https://catedu.gitbooks.io/micro-bit/content/la_brujula_detecta_el_campo_magnetico_terrestre_po.html
