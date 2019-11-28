@@ -94,8 +94,11 @@ https://makecode.microbit.org/_Dm7961WkhHP6
 
 ### Guardando las distancias
 
+https://catedu.gitbooks.io/smartcar-micro-bit/content/reto-5-mando-a-distancia.html
 
 ### Sígueme
+
+
 
 ### Siguelíneas
 
@@ -115,7 +118,6 @@ Movimientos random https://makecode.microbit.org/_EkmXK2DV3Edq
 
 ![Motores_random.png](./images/Motores_random.png)
  
-
 [Movimientos básicos](https://makecode.microbit.org/_8mva3TEVH0rM)
 
 [Sonidos y leds delanteros](https://makecode.microbit.org/_XrVhsU9tuH5x)
@@ -135,6 +137,8 @@ Movimientos random https://makecode.microbit.org/_EkmXK2DV3Edq
 https://www.instructables.com/id/Using-the-DF-Robot-Micro-Maqueen-MicroBit-Robot-Pl/
 
 ### Recursos 
+
+https://www.rapidonline.com/bitbot
 
 https://juegosrobotica.es/podcast-036/
 
