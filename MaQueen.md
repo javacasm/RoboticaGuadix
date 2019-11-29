@@ -91,30 +91,58 @@ https://makecode.microbit.org/_Dm7961WkhHP6
 
         screen /dev/ttyACM0 115200
 
+### Mando a distancia
 
-### Guardando las distancias
+Vamos a usar las comunicaciones por radio para comunicar 2 microbit: una que actuará como mando y la otra que controlará a maqueen
 
-https://catedu.gitbooks.io/smartcar-micro-bit/content/reto-5-mando-a-distancia.html
+Estableceremos unos códigos numéricos para cada orden y la pulsación de los botones del mando y algunos gestos enviarán esos códigos
+
+|Botón/Gesto| Acción|Código
+| --- | --- | ---
+|A+B inclinado hacia arriba|Adelante| 1
+|A+B inclinado hacia abajo|Atrás|4
+|A|giro a la izquierda|3
+|B|Giro a la derecha|2    
+|Pantalla cara al suelo|Parar|0
+| Agitado | Luces On |5
+
+Para hacer visible la orden que vamos a enviar se mostrarán unos iconos/flechas en la pantalla del mando
+
+Usaremos un grupo de radio distinto para cada par mando/maqueen
+
+![](./images/ManchoCocheV2.png)
+
+En la micro:bit de maqueen establecemos el mismo grupo de radio y  en función del código recibido realizaremos las acciones correspondientes.
+
+Para hacerlo más claro se han definido funciones, una para cada acción. En ellas se hacen los movimientos correspondientes, se encienden/apagan leds y se muestran los mismos iconos en la pantalla
+
+![](./images/ControlCocheV2.png)
+
+Para probarlo programamos las 2 micro:bit cada una con su programa y vemos que efectivamente cuando se manda una orden la otra muestra el mismo icono.
+
+Una vez verificado el funcionamiento montamos la micro:bit correspondiente en maqueen y a probar los movmientos
+
+[Mando v2](https://makecode.microbit.org/_MsWR74gMag54)
+
+[Control coche v2](https://makecode.microbit.org/_hrzTPR2TX380)
+
+
+## Otros retos
 
 ### Sígueme
 
 
+Medimos la distancia con el sensor de ultrasonidos y nos movemos en función de que la distancia se haga mayor o menor que una determinada.
 
 ### Siguelíneas
 
+Usamos los sensores infrarrojos de maqueen seguimos una línea negra. Para ello cambiamos de dirección si uno de los sensores detecta blanco.
+
 ![](https://catedu.gitbooks.io/smartcar-micro-bit/content/assets/a208fdf2-0792-4af6-b75a-bb8ec681aa19.jpg)
-
-
-### Mando a distancia
-
-Usando otra micro:bit como mando
-
 
 #### Motores
  
-Podemos controlar los movimientos del robot usando los dos motores
-
-Movimientos random https://makecode.microbit.org/_EkmXK2DV3Edq
+[Movimientos random](https://makecode.microbit.org/_EkmXK2DV3Edq)
 
 ![Motores_random.png](./images/Motores_random.png)
  
@@ -134,16 +162,16 @@ Movimientos random https://makecode.microbit.org/_EkmXK2DV3Edq
 
 ### Programando con Arduino
 
-https://www.instructables.com/id/Using-the-DF-Robot-Micro-Maqueen-MicroBit-Robot-Pl/
+[Programación de Maqueen con Arduino](https://www.instructables.com/id/Using-the-DF-Robot-Micro-Maqueen-MicroBit-Robot-Pl/)
 
 ### Recursos 
-
-https://www.rapidonline.com/bitbot
-
-https://juegosrobotica.es/podcast-036/
 
 [Wiki del producto](https://wiki.dfrobot.com/micro:Maqueen_for_micro:bit_SKU:ROB0148-E%28ROB0148%29)
 
 [Página del producto](https://www.dfrobot.com/product-1783.html?search=maqueen)
 
 [Ideas para retos](https://raw.githubusercontent.com/Frances9/ROB0148/master/Crazy%20Maqueen%20Tutorial-English.pdf)
+
+[Otros ejemplos de movimiento](https://www.rapidonline.com/bitbot)
+
+[PodCast de Juegos Robótica sobre maqueen](https://juegosrobotica.es/podcast-036/)
