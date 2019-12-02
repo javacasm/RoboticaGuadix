@@ -143,6 +143,28 @@ Comparte tus emociones: selecciona con los botones A y B tu estado de ánimo y c
 Para ello usaremos los bloques de envía etiqueta/valor
 
 
+### Giróscopo
+
+Un giróscopo es un sensor que nos permite medir el sentido de giro. Comparamos la micro:bit con un avión para entender el ejemplo. 
+
+En esta imagen de @tigerjython4kids se ve claramente 
+
+![](./images/accererRoll.png)
+
+Dos ángulos definen la posición:
+
+* Pitch o inclinación (traducido en makecode por timbre)
+* Roll o giro
+
+Podemos ver el grado de giro de cada uno usando sus valores correspondientes. Si tenemos plana nuestra micro:bit como en la imagen, ambos ángulos son 0. Si la inclinamos hacia adelante Pitch sería negativo y si la inclinamos hacia la izquierda lo sería Roll
+
+Usando estos ángulos podemos hacer muchos proyectos:
+
+* Un nivel que ilumina distintos leds, según la inclinación, mostrando el led central si estamos en Pitch = 0 y Roll = 0
+* Un Teremin-inclinómetro que varía la frecuencia del sonido en función de la posición
+
+
+
 ### Brújula
 
 https://catedu.gitbooks.io/micro-bit/content/la_brujula_detecta_el_campo_magnetico_terrestre_po.html
