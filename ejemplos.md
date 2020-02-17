@@ -168,3 +168,11 @@ Usando estos ángulos podemos hacer muchos proyectos:
 ### Brújula
 
 https://catedu.gitbooks.io/micro-bit/content/la_brujula_detecta_el_campo_magnetico_terrestre_po.html
+
+### Piedra papel o tijera multiuser
+
+[Ejemplo](https://makecode.microbit.org/projects/rps-teams)
+
+Usamos radio para comunicar placas
+
+![](./images/PiedraPapelTijeraMultiuser.png)
