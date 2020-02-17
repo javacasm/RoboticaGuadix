@@ -8,6 +8,8 @@ http://microes.org/descargas/manual-de-programacion-microbit.pdf
 
 [Revista micro:mag](https://micromag.cc/)
 
+[Prácticas STEAM con micro:bit](https://view.genial.ly/5dc9a45f03986d0f38329ecb/presentation-simp-practicas-steam-con-microbitmicrobit)
+
 
 ## Curso de ingenieria del software
 
