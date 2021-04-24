@@ -1,7 +1,6 @@
 # BBC-microbit
 
-![microbit front](http://microbit.org/images/microbit-front.png)
-![microbit back](http://microbit.org/images/microbit-back.png)
+![Hardware de micro:bit](./images/microbit.png)
 
 [Fundación microbit](http://microbit.org/es/)
 
